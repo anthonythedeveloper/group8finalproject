@@ -1,68 +1,146 @@
-#home-section {
-height: 100vh;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("./images/headerBackground.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/*------------ navbar-styling ------------*/
+/* logo */
+#ravens-logo {
+  width: 4rem;
 }
-#ravens-logo{
-    width: 1rem;
-}
-/* header text */
-#top-hr{
-background-color: white; height: .3rem; border: 0; width: 35%;
-}
-#bottom-hr{
-  background-color: white; height: .3rem; border: 0; width: 70%;
-}
-.headline-header{
+/* navbar hamburger */
+#cart-logo {
+  width: 3rem;
   color: white;
-  margin-top: 34vh;
-   text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
-
 }
-.headline-header h1{
-  font-size: 4rem;
+.row .three {
+  padding: 80px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ecf0f1;
+  text-align: center;
+}
+
+.hamburger .line {
+  width: 50px;
+  height: 3.5px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 8px auto;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#line-3 {
+  width: 35px;
+  margin-left: 0px;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+
+/*------------ header styling ------------*/
+
+/* homes section and header background image*/
+#home-section {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("./images/headerBackground.png");
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: 50% center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+
+/* header text */
+#top-hr {
+  background-color: white;
+  height: 0.1rem;
+  border: 0;
+  width: 35%;
+  opacity: 1;
+  border-radius: 4px;
+}
+#bottom-hr {
+  background-color: white;
+  height: 0.1rem;
+  border: 0;
+  width: 75vw;
+  opacity: 1;
+  border-radius: 4px;
+}
+.headline-header {
+  color: white;
+  margin-top: 11rem;
+  text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
+}
+.headline-header h1 {
+  font-size: 2.53rem;
   font-weight: 500;
 }
-.headline-header span{
+.headline-header span {
   color: #ca9433;
-}
-.header-btn{
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
-
-}
-.ticket-header{
-text-align: center;
+  font-size: 2.9rem;
 }
 
-.ticket-header p{
-color: #231076 ;
+/*------------ header-ticket container ------------*/
+.tickets-container {
+  background-color: white;
+  padding-top: 2rem;
+  border-top-left-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
 }
-.header-tickets-container{
-background-color: #E8E8E8;
-padding-top: 3rem;
+.ticket-card {
+  background-color: #e8e8e8;
+}
+.ticket-card p{
+  font-size: .8rem;
+}
+.ticket-header h1 {
+  color: #231076;
+}
+.buy-now-btn{
+  background-color: #231076;
+  color: white;
+  font-size: .5rem;
+}
+.add-cart-btn{
+  background-color: #CA9425;
+  color: white;
+  font-size: .5rem;
+}
+.ticket-container-btn{
+  border-left: 1px solid #999999;
+  border-width: 2px;
 
 }
-#tickets-logo{
-  width: 5rem;
+#tickets-logo {
+  width: 4rem;
 }
-
-
-
 
 /*footer*/
 
-.footer-area{
+.footer-area {
   background: #0d0d1f;
   bottom: 0;
   position: absolute;
   color: white;
-  text-decoration:none;
+  text-decoration: none;
   font-family: Lato;
   font-weight: normal;
   width: 100%;
@@ -71,35 +149,32 @@ padding-top: 3rem;
   font-size: 19px;
 }
 
-
-
-.footer{
+.footer {
   background-color: black;
 }
 
-.footer_logo{
+.footer_logo {
   text-align: center;
   width: 150px;
-  height:150px;
+  height: 150px;
   display: block;
 }
 
-.footer_logo_nfl{
-  text-align:end;
+.footer_logo_nfl {
+  text-align: end;
   width: 150px;
-  height:150px;
+  height: 150px;
 }
 
-.quick_link{
+.quick_link {
   text-decoration: none !important;
 }
 
 .newsletter_screenshot {
   border-radius: 30px;
-  
 }
 
-.footer_item{
+.footer_item {
   font-size: 19px;
 }
 
