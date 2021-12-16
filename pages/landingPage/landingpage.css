@@ -5,9 +5,17 @@
 }
 
 /*------------ navbar-styling ------------*/
+
+.nav-active {
+background-color: rgba(35, 16, 118, 1);
+}
+
+nav {
+  z-index: 1;
+}
 /* logo */
 #ravens-logo {
-  width: 4rem;
+  width: 6rem;
 }
 /* navbar hamburger */
 #cart-logo {
@@ -86,16 +94,19 @@
 }
 .headline-header {
   color: white;
-  margin-top: 11rem;
+  margin-top: 25rem;
   text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
 }
 .headline-header h1 {
-  font-size: 2.53rem;
-  font-weight: 500;
+  font-size: 3.75rem;
+  font-weight: 700;
 }
 .headline-header span {
   color: #ca9433;
-  font-size: 2.9rem;
+  font-size: 4.2rem;
+}
+.header-btn{
+  font-size: 1.7rem;
 }
 
 /*------------ header-ticket container ------------*/
@@ -108,29 +119,68 @@
 .ticket-card {
   background-color: #e8e8e8;
 }
-.ticket-card p{
-  font-size: .8rem;
+.ticket-card p {
+  font-size: 1.2rem;
 }
 .ticket-header h1 {
+  font-weight: 700;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 2rem;
   color: #231076;
 }
-.buy-now-btn{
+.ticket-header p{
+  font-weight: 300;
+}
+.buy-now-btn {
   background-color: #231076;
   color: white;
-  font-size: .5rem;
+  font-size: 1rem;
+  font-weight: 100;
+margin-bottom: .4rem;
 }
-.add-cart-btn{
-  background-color: #CA9425;
+.add-cart-btn {
+  background-color: #ca9425;
   color: white;
-  font-size: .5rem;
+  font-size: 1.1rem;
+    font-weight: 100;
 }
-.ticket-container-btn{
+.ticket-container-btn {
   border-left: 1px solid #999999;
   border-width: 2px;
-
 }
 #tickets-logo {
-  width: 4rem;
+  width: 5rem;
+}
+/*------------ Latest Styles container ------------*/
+.latest-style-container {
+  background-color: #231a2c;
+}
+.latest-style-header {
+  color: #ca9425;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.latest-style-p {
+  font-weight: 100;
+}
+
+/* caurosel */
+.carousel-control-next-icon,
+.carousel-control-next{
+  font-size: 200px;
+}
+.carousel-item img {
+  object-fit: cover;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
+  border-radius: 2.7rem;
+  padding-bottom: 6rem;
+}
+.carousel-control-prev {
+  margin-left: -10vw;
+}
+
+.carousel-control-next {
+  margin-right: -10vw;
 }
 
 /*footer*/

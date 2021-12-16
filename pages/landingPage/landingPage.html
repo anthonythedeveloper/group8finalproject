@@ -1,178 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ravens Fan Page</title>
-    <link rel="stylesheet" href="/bootstrapData/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/pages/landingPage/landingpage.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-  </head>
-  <body>
-    <section id="home-section">
-      <!-- navbar container -->
-      <nav
-        class="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravens Fan Page</title>
+  <link rel="stylesheet" href="/bootstrapData/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/pages/landingPage/landingpage.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+  <section id="home-section">
+    <!-- navbar container -->
+    <nav class="
           navbar navbar-expand-md navbar-light
-          bg-transparent
+  
           d-flex
           align-items-end
           pt-2
-        "
-      >
-        <div class="container-fluid border-light">
-          <a class="navbar-brand order-1 order-md-0" href="#"
-            ><img
-              id="ravens-logo"
-              src="/images/ravens-logo.png"
-              alt="ravens logo football team"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <div class="three col">
-              <div class="hamburger" id="hamburger-9">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line" id="line-3"></span>
-              </div>
+          fixed-top
+        
+        " id="navbar">
+      <div class="container-fluid border-light">
+        <a class="navbar-brand order-1 order-md-0" href="#"><img id="ravens-logo" src="/images/ravens-logo.png"
+            alt="ravens logo football team" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="three col">
+            <div class="hamburger" id="hamburger-9">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line" id="line-3"></span>
             </div>
-          </button>
-          <a class="nav-link order-2 order-md-1" aria-current="page" href="#"
-            ><img
-              id="cart-logo"
-              src="https://w7.pngwing.com/pngs/139/420/png-transparent-white-shopping-cart-illustration-shopping-cart-computer-icons-white-cart-simple-miscellaneous-angle-white-thumbnail.png"
-          /></a>
-          <div
-            class="collapse navbar-collapse order-3 order-md-0"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">EVENTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">MERCHANDISE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">MEDIA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SCHEDULE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
           </div>
+        </button>
+        <a class="nav-link order-2 order-md-1" aria-current="page" href="#"><img id="cart-logo"
+            src="https://w7.pngwing.com/pngs/139/420/png-transparent-white-shopping-cart-illustration-shopping-cart-computer-icons-white-cart-simple-miscellaneous-angle-white-thumbnail.png" /></a>
+        <div class="collapse navbar-collapse order-3 order-md-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MERCHANDISE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MEDIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SCHEDULE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- landing page header -->
-      <div class="container">
-        <div class="row">
-          <div class="col-12 headline-header">
-            <hr id="top-hr" />
-            <h1 class="">IT'S TIME TO <span>TOUCHDOWN</span></h1>
-            <hr id="bottom-hr" />
-            <button class="btn btn-outline-light text-white rounded-pill mb-4">
-              Browse Events
-            </button>
+      </div>
+    </nav>
+    <!-- landing page header -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 headline-header">
+          <hr id="top-hr" />
+          <h1 class="">IT'S TIME TO <span>TOUCHDOWN</span></h1>
+          <hr id="bottom-hr" />
+          <button class="btn btn-outline-light text-white rounded-pill my-4 mb-5 header-btn">
+            Browse Events
+          </button>
+        </div>
+        <!-- tickets container -->
+        <div class="col-12 border tickets-container">
+          <!-- Header tickets container -->
+          <div class="ticket-header text-center">
+            <h1 class="h1">GRAB YOUR TICKETS NOW!</h1>
+            <p class=" h1 pb-2">EVENTS THIS MONTH</p>
           </div>
-          <!-- tickets container -->
-          <div class="col-12 border tickets-container">
-            <!-- Header tickets container -->
-            <div class="ticket-header text-center">
-              <h1 class="h3">GRAB YOUR TICKETS NOW!</h1>
-              <p class="font-weight-light text-muted">EVENTS THIS MONTH</p>
-            </div>
-            <!-- team game detain -->
-            <div
-              class="
+          <!-- team game detain -->
+          <div class="
                 row
                 border border-dark border-left-0 border-right-0
                 ticket-card
                 
-              "
-            >
-              <div class="row  d-flex align-items-center justify-content-center">
-                <div class="col-8">
-                  <p class="text-muted">Sunday, January 10th, 2022</p>
-                  <img src="/images/ravens-logo.png" id="tickets-logo" />
-                  <span>VS.</span>
-                  <img src="/images/dolphins-logo.png" id="tickets-logo" />
-                  <p class="text-muted">Ravens vs. Miami Dolphins</p>
-                </div>
-                <div class="col-4 ticket-container-btn">
-                  <button class="btn rounded-pill buy-now-btn ">Buy Now</button>
-                  <button class="btn rounded-pill add-cart-btn">Add to card</button>
-                </div>
+              ">
+            <div class="row  d-flex align-items-center ">
+              <div class="col-8">
+                <p class="text-muted">Sunday, January 10th, 2022</p>
+                <img src="/images/ravens-logo.png" id="tickets-logo" />
+                <span>VS.</span>
+                <img src="/images/dolphins-logo.png" id="tickets-logo" />
+                <p class="text-muted">Ravens vs. Miami Dolphins</p>
+              </div>
+              <div class="col-4 ticket-container-btn">
+                <button class="btn rounded-pill buy-now-btn ">Buy Now</button>
+                <button class="btn rounded-pill add-cart-btn">Add to card</button>
               </div>
             </div>
-            <!-- team game detain -->
-             <div
-              class="
+          </div>
+          <!-- team game detain -->
+          <div class="
                 row
                 border border-dark border-left-0 border-right-0
                 my-3
                 ticket-card
-              "
-            >
-              <div class="row  d-flex align-items-center justify-content-center"">
-                <div class="col-8">
-                  <p class="text-muted">Sunday, January 10th, 2022</p>
-                  <img src="/images/ravens-logo.png" id="tickets-logo" />
-                  <span>VS.</span>
-                  <img src="/images/wft-logo.png" id="tickets-logo" />
-                  <p class="text-muted">Ravens vs. Washington Footbal</p>
-                </div>
-                <div class="col-4  ticket-container-btn">
-                  <button class="btn rounded-pill buy-now-btn ">Buy Now</button>
-                  <button class="btn rounded-pill add-cart-btn">Add to card</button>
-                </div>
+              ">
+            <div class="row  d-flex align-items-center">
+              <div class="col-8">
+                <p class="text-muted">Sunday, January 10th, 2022</p>
+                <img src="/images/ravens-logo.png" id="tickets-logo" />
+                <span>VS.</span>
+                <img src="/images/wft-logo.png" id="tickets-logo" />
+                <p class="text-muted">Ravens vs. Washington Footbal</p>
+              </div>
+              <div class="col-4  ticket-container-btn">
+                <button class="btn rounded-pill buy-now-btn ">Buy Now</button>
+                <button class="btn rounded-pill add-cart-btn">Add to card</button>
               </div>
             </div>
-            <!-- team game detain -->
-            <div class="row border border-dark ticket-card ">
-              <div class="row  d-flex align-items-center justify-content-center"">
-                <div class="col-8">
-                  <p class="text-muted">Saturday, December 11th, 2021</p>
-                  <img src="/images/ravens-logo.png" id="tickets-logo" />
-                  <span>VS.</span>
-                  <img src="/images/cowboys-logo.png" id="tickets-logo" />
-                  <p class="text-muted">Miami Dolphins vs. Ravens</p>
-                </div>
-                <div class="col-4  ticket-container-btn">
-                  <button class="btn rounded-pill buy-now-btn">Buy Now</button>
-                  <button class="btn rounded-pill add-cart-btn">Add to card</button>
-                </div>
+          </div>
+          <!-- team game detain -->
+          <div class="row border border-dark ticket-card ">
+            <div class="row  d-flex align-items-center">
+              <div class="col-8">
+                <p class="text-muted">Saturday, December 11th, 2021</p>
+                <img src="/images/ravens-logo.png" id="tickets-logo" />
+                <span>VS.</span>
+                <img src="/images/cowboys-logo.png" id="tickets-logo" />
+                <p class="text-muted">Miami Dolphins vs. Ravens</p>
+              </div>
+              <div class="col-4  ticket-container-btn">
+                <button class="btn rounded-pill buy-now-btn">Buy Now</button>
+                <button class="btn rounded-pill add-cart-btn">Add to card</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    <!-- </section>
-    <section class="latest-style-container">
-      <h1>The Latest Styles</h1>
-      <p>
-        Suit up in support of your Baltimore Ravens throughout all of the 2021
-        season and browse a leading assortment of Baltimore Ravens apparel and
-        gear from none other than the official online store of the NFL! Find the
-        best selection of Ravens jerseys, shirts, and all the merchandise you
-        are coveting to show your black, purple and gold colors on game day.
-      </p>
-    </section>
-    <section class="media-recaps-container"></section> -->
-    <!-- footer work in progress, need more images to continue making the newsletter portion -->
+    </div>
+  </section>
+  <section class="latest-style-container text-center py-5  px-5">
+    <h1 class="latest-style-header display-1 mb-4">The Latest Styles</h1>
+    <p class="latest-style-p text-light h2 mb-5 mt-5">
+      Suit up in support of your Baltimore Ravens throughout all of the 2021
+      season and browse a leading assortment of Baltimore Ravens apparel and
+      gear from none other than the official online store of the NFL! Find the
+      best selection of Ravens jerseys, shirts, and all the merchandise you
+      are coveting to show your black, purple and gold colors on game day.
+    </p>
+    <!-- carousel -->>
+    <div class="container mt-5">
+      <div id="carouselExample" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/images/output-onlinepngtools.png" alt="First slide">
+           <div class="caurosel button">
+            <button class="btn rounded-pill text-white border-light ">Add to Cart</button>
+            <button class="btn rounded-pill text-white border-light buy-now-btn">Buy Now</button>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/images/output-onlinepngtools.png" alt="Second slide">
+            <div class="caurosel button">
+            <button class="btn rounded-pill text-white border-light ">Add to Cart</button>
+            <button class="btn rounded-pill text-white border-light buy-now-btn">Buy Now</button>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/images/output-onlinepngtools.png" alt="Third slide">
+           <div class="caurosel button">
+            <button class="btn rounded-pill text-white border-light ">Add to Cart</button>
+            <button class="btn rounded-pill text-white border-light buy-now-btn">Buy Now</button>
+          </div>
+
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExample" type="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <button class="btn rounded-pill text-white border-light my-4">Discover More</button>
+  </section>
+  <section class="media-recaps-container"></section>
+
+
+
+
+  <!-- footer work in progress, need more images to continue making the newsletter portion
 
     <footer class="text-white">
       <div class="container-fluid bg-black pt-5 pb-5">
@@ -221,13 +242,14 @@
           <div class="col-md-1">
             <!--<img src="/images/Screenshot 2021-12-08 at 15-28-05 Figma.png" width="80px"/>-->
 
-            <h4 class="font-weight-bold" style="margin-top: 200px"></h4>
-          </div>
-        </div>
-      </div>
-    </footer>
+  <h4 class="font-weight-bold" style="margin-top: 200px"></h4>
+  </div>
+  </div>
+  </div>
+  </footer>
 
-    <script src="/bootstrapData/js/bootstrap.min.js"></script>
-    <script src="./landingPage.js"></script>
-  </body>
+  <script src="/bootstrapData/js/bootstrap.min.js"></script>
+  <script src="./landingPage.js"></script>
+</body>
+
 </html>
