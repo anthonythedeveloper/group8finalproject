@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.mustard-color {
+  color: #ca9425
+}
 /*------------ navbar-styling ------------*/
 
 .nav-active {
@@ -181,6 +183,44 @@ margin-bottom: .4rem;
 
 .carousel-control-next {
   margin-right: -10vw;
+}
+/* ------------ MEDIA RECAPS SECTION ------------ */
+.media-recaps-container{
+  background: linear-gradient(180deg, rgb(35,26,44,900%) 0%, #000000 100%);
+}
+.media-recaps-container iframe{
+  width: 70vw;
+  height: 20vh;
+}
+.media-icon-group img{
+width: 2rem;
+margin: 0px .4rem 0px
+}
+.media-recap-header{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.overflow-scroll{
+  width: 95%;
+  margin: auto;
+  height: 80%;
+ overflow-x: hidden
+}
+.overflow-scroll .row{
+  background-color: black;
+}
+.overflow-scroll iframe{
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.overflow-header{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.overflow-scroll p {
+  font-size: 1rem;
 }
 
 /*footer*/
