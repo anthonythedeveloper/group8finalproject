@@ -10,6 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="../../bootstrapData/css/bootstrap.min.css">
+    <style>       
+        hr{
+            height: 25px;
+            background-color: #ccc;
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,34 +29,34 @@
             <div class="col-md-6 form-box p-5">
                 
                 <h1>REACH OUT TO US.</h1>
-                <hr id="linereach">
+                <hr>
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eum ipsum porro
                     quidem commodi consequuntur culpa rem, laboriosam modi quia illo corporis enim, suscipit minima.</p>
 
                 <form class="contactbg">
 
                     <div class="nameandentry">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter Name">
+                        <label id="name" for="exampleInputEmail1">Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp rounded">
                     </div>
 
                     <div class="subjectentry">
-                        <label for="exampleInputPassword1">Subject</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label id="subject" for="exampleInputPassword1">Subject</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" >
                     </div>
 
                     <div class="emailentry">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label id="email" for="exampleInputPassword1">Email</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" >
                     </div>
 
                     <div class="messageentry">
-                        <label for="exampleInputPassword1">Message</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label id="message" for="exampleInputPassword1">Message</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" >
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-outline-light m-1 btn-lg">Submit</button>
                 </form>
 
             </div>

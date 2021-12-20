@@ -28,3 +28,24 @@ h1 {
 p  {
     color:  white;
 }
+
+#name {
+    color: white;
+}
+
+#subject {
+    color: white;
+}
+
+#email {
+    color: white;
+}
+
+#message {
+    color: white;
+}
+
+.btn {
+    border-width:3px !important;
+    border-radius: 23px !important;
+}
