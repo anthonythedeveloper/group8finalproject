@@ -14,3 +14,17 @@ body {
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color: #464646;
 }
+
+
+.form-box {
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+}
+
+h1 {
+    color: #CA9425;
+}
+
+p  {
+    color:  white;
+}
