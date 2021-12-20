@@ -4,12 +4,21 @@
   box-sizing: border-box;
 }
 .mustard-color {
-  color: #ca9425
+  color: #ca9425;
 }
+/* font families 
+font-family: 'Barlow', sans-serif;
+font-family: 'Lato', sans-serif;
+
+*/
+
 /*------------ navbar-styling ------------*/
+html {
+  font-family: "Barlow", sans-serif;
+}
 
 .nav-active {
-background-color: rgba(35, 16, 118, 1);
+  background-color: rgba(35, 16, 118, 1);
 }
 
 nav {
@@ -107,7 +116,7 @@ nav {
   color: #ca9433;
   font-size: 4.2rem;
 }
-.header-btn{
+.header-btn {
   font-size: 1.7rem;
 }
 
@@ -126,11 +135,11 @@ nav {
 }
 .ticket-header h1 {
   font-weight: 700;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-size: 2rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
   color: #231076;
 }
-.ticket-header p{
+.ticket-header p {
   font-weight: 300;
 }
 .buy-now-btn {
@@ -138,13 +147,13 @@ font-size: 2rem;
   color: white;
   font-size: 1rem;
   font-weight: 100;
-margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 .add-cart-btn {
   background-color: #ca9425;
   color: white;
   font-size: 1.1rem;
-    font-weight: 100;
+  font-weight: 100;
 }
 .ticket-container-btn {
   border-left: 1px solid #999999;
@@ -168,7 +177,7 @@ margin-bottom: .4rem;
 
 /* caurosel */
 .carousel-control-next-icon,
-.carousel-control-next{
+.carousel-control-next {
   font-size: 200px;
 }
 .carousel-item img {
@@ -185,37 +194,36 @@ margin-bottom: .4rem;
   margin-right: -10vw;
 }
 /* ------------ MEDIA RECAPS SECTION ------------ */
-.media-recaps-container{
-  background: linear-gradient(180deg, rgb(35,26,44,900%) 0%, #000000 100%);
+.media-recaps-container {
+  background: linear-gradient(180deg, rgb(35, 26, 44, 900%) 0%, #000000 100%);
 }
-.media-recaps-container iframe{
-  width: 70vw;
-  height: 20vh;
+.media-recaps-container iframe {
+  width: 100%;
 }
-.media-icon-group img{
-width: 2rem;
-margin: 0px .4rem 0px
+.media-icon-group img {
+  width: 2rem;
+  margin: 0px 0.4rem 0px;
 }
-.media-recap-header{
+.media-recap-header {
   font-weight: 700;
   font-size: 3rem;
 }
-.overflow-scroll{
+.overflow-scroll {
   width: 95%;
   margin: auto;
   height: 80%;
- overflow-x: hidden
+  overflow-x: hidden;
 }
-.overflow-scroll .row{
+.overflow-scroll .row {
   background-color: black;
 }
-.overflow-scroll iframe{
+.overflow-scroll iframe {
   width: 100%;
   height: 100%;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
-.overflow-header{
+.overflow-header {
   font-size: 1rem;
   font-weight: 700;
 }
@@ -271,4 +279,191 @@ margin: 0px .4rem 0px
 .uil {
   width: 100%;
   height: 100%;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  /* navbar */
+
+/* logo */
+#ravens-logo {
+  width: 6rem;
+}
+/* navbar hamburger */
+#cart-logo {
+  width: 3rem;
+  color: white;
+}
+.nav-link{
+font-size: 1rem;
+
+}
+
+  /* header text */
+  #top-hr {
+    height: 0.2rem;
+    width: 35%;
+  }
+  #bottom-hr {
+
+    height: 0.2rem;
+    width: 35vw;
+    
+  }
+  .headline-header {
+    margin-top: 30rem;
+  }
+  .headline-header h1 {
+    font-size: 2.75rem;
+  }
+  .headline-header span {
+    font-size: 3rem;
+  }
+  .header-btn {
+    font-size: 1rem;
+  }
+  
+/*------------ header-ticket container ------------*/
+.tickets-container {
+  height: 100%;
+  margin-top: 10%;
+}
+.ticket-card {
+  background-color: #e8e8e8;
+  height: 100%;
+}
+.ticket-card span{
+  font-size: 1.5rem;
+}
+.ticket-card p {
+  font-size: 1rem;
+}
+.ticket-header h1 {
+font-size: 1.5rem;
+ 
+}
+.ticket-header p{
+  font-weight: 300;
+}
+.buy-now-btn {
+  font-size: .5rem;
+margin-bottom: .4rem;
+}
+.add-cart-btn {
+  font-size: .5rem;
+}
+
+#tickets-logo {
+  width: 4rem;
+}
+}
+
+/* media queries */
+@media screen and (min-width: 992px) {
+  /* navbar */
+
+/* logo */
+#ravens-logo {
+  width: 6rem;
+}
+/* navbar hamburger */
+#cart-logo {
+  width: 3rem;
+  color: white;
+}
+.nav-link{
+font-size: 1rem;
+
+}
+
+  /* header text */
+  #top-hr {
+    height: 0.2rem;
+    width: 35%;
+  }
+  #bottom-hr {
+
+    height: 0.2rem;
+    width: 35vw;
+    
+  }
+  .headline-header {
+    margin-top: 30rem;
+  }
+  .headline-header h1 {
+    font-size: 2.75rem;
+  }
+  .headline-header span {
+    font-size: 3rem;
+  }
+  .header-btn {
+    font-size: 1rem;
+  }
+  
+/*------------ header-ticket container ------------*/
+.tickets-container {
+  height: 100%;
+  margin-top: 15vh;
+}
+.ticket-card {
+  background-color: #e8e8e8;
+  height: 100%;
+}
+.ticket-card span{
+  font-size: 1.5rem;
+}
+.ticket-card p {
+  font-size: 1rem;
+}
+.ticket-header h1 {
+font-size: 1.5rem;
+ 
+}
+.ticket-header p{
+  font-weight: 300;
+}
+.buy-now-btn {
+  font-size: .5rem;
+margin-bottom: .4rem;
+}
+.add-cart-btn {
+  font-size: .5rem;
+}
+
+#tickets-logo {
+  width: 4rem;
+}
+}
+
+/* carousel  */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
 }

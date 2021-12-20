@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="/bootstrapData/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/pages/landingPage/landingpage.css" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,12 +19,8 @@
     <!-- navbar container -->
     <nav class="
           navbar navbar-expand-md navbar-light
-  
-          d-flex
-          align-items-end
           pt-2
           fixed-top
-        
         " id="navbar">
       <div class="container-fluid border-light">
         <a class="navbar-brand order-1 order-md-0" href="#"><img id="ravens-logo" src="/images/ravens-logo.png"
@@ -41,28 +40,28 @@
         <div class="collapse navbar-collapse order-3 order-md-0" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">EVENTS</a>
+              <a class="nav-link text-white h4" href="#">EVENTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">MERCHANDISE</a>
+              <a class="nav-link text-white h4" href="#">MERCHANDISE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">MEDIA</a>
+              <a class="nav-link text-white h4" href="#">MEDIA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SCHEDULE</a>
+              <a class="nav-link text-white h4" href="#">SCHEDULE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link text-white h4" href="#">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- landing page header -->
-    <div class="container">
+    <div class="container home-content-container" id="home-content-container">
       <div class="row">
-        <div class="col-12 headline-header">
+        <div class="col-12 col-md-6  headline-header">
           <hr id="top-hr" />
           <h1 class="">IT'S TIME TO <span>TOUCHDOWN</span></h1>
           <hr id="bottom-hr" />
@@ -71,7 +70,7 @@
           </button>
         </div>
         <!-- tickets container -->
-        <div class="col-12 border tickets-container">
+        <div class="col-12 col-md-6 border tickets-container">
           <!-- Header tickets container -->
           <div class="ticket-header text-center">
             <h1 class="h1">GRAB YOUR TICKETS NOW!</h1>
@@ -88,7 +87,7 @@
               <div class="col-8">
                 <p class="text-muted">Sunday, January 10th, 2022</p>
                 <img src="/images/ravens-logo.png" id="tickets-logo" />
-                <span>VS.</span>
+                <span class="h1">VS.</span>
                 <img src="/images/dolphins-logo.png" id="tickets-logo" />
                 <p class="text-muted">Ravens vs. Miami Dolphins</p>
               </div>
@@ -109,7 +108,7 @@
               <div class="col-8">
                 <p class="text-muted">Sunday, January 10th, 2022</p>
                 <img src="/images/ravens-logo.png" id="tickets-logo" />
-                <span>VS.</span>
+                <span class="h1">VS.</span>
                 <img src="/images/wft-logo.png" id="tickets-logo" />
                 <p class="text-muted">Ravens vs. Washington Footbal</p>
               </div>
@@ -125,7 +124,7 @@
               <div class="col-8">
                 <p class="text-muted">Saturday, December 11th, 2021</p>
                 <img src="/images/ravens-logo.png" id="tickets-logo" />
-                <span>VS.</span>
+                <span class="h1">VS.</span>
                 <img src="/images/cowboys-logo.png" id="tickets-logo" />
                 <p class="text-muted">Miami Dolphins vs. Ravens</p>
               </div>
@@ -139,6 +138,7 @@
       </div>
     </div>
   </section>
+
   <section class="latest-style-container text-center py-5  px-5">
     <h1 class="latest-style-header display-1 mb-4">The Latest Styles</h1>
     <p class="latest-style-p text-light h2 mb-5 mt-5">
@@ -193,15 +193,15 @@
     <h1 class="mustard-color media-recap-header text-center">MEDIA RECAPS</h1>
     <div class="container ">
       <div class="row ">
-        <div class="col-12 text-center">
-          <div class="embed-responsive embed-responsive-16by9">
+        <div class="col-12 col-md-6 text-center">
+          <div class="embed-responsive embed-responsive-16by9 mt-3">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HyETMuf8Mew"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
           </div>
-          <h5 class="px-4 display-5">Slayings not forgotten, Ray Lewis not forgiven</h5>
-          <p class="h5">June 18,2021 | 2:50PM</p>
+          <h1 class="">Slayings not forgotten,<br> Ray Lewis not forgiven</h1>
+          <p>June 18,2021 | 2:50PM</p>
           <div class="media-icon-group">
             <a href="https://twitter.com/Ravens?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target="_blank"><img src="../../images/social-media/twitter-icon.png" alt="twitter media icon" /></a>
@@ -214,8 +214,8 @@
           </div>
         </div>
         <!-- upnext video article -->
-        <div class="col-12 py-3 ">
-          <h5 class="text-left">UP NEXT:</h5>
+        <div class="col-12 col-md-6 py-3 ">
+          <h5 class="text-left py-2">UP NEXT:</h5>
           <div class="overflow-scroll">
             <div class="container">
               <div class="row mb-3 bg-transparent">
@@ -256,10 +256,10 @@
                   </div>
                 </div>
               </div>
-              <div class="row  mb-3 bg-transparent">
+             <div class="row  mb-3 bg-transparent">
                 <div class=" row col-6 ">
-                  <p class="mustard-color overflow-header">Browns vs. Ravens liv...</p>
-                  <p>12/15/2021. Lamar Jackson and the Baltimore Ravens overcame four intercepti...</p>
+                  <p class="mustard-color overflow-header">Lamar Jackson, is he a run...</p>
+                  <p>12/15/2021. Lamar Jackson is a runner or thrower...</p>
                 </div>
                 <div class="col-6">
                   <div class="embed-responsive embed-responsive-16by9">
