@@ -1,5 +1,5 @@
 body {
-    height: 100%;
+  height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
     url("../../images/contactusbg.jpg");
   /* Image is centered vertically and horizontally at all times */
@@ -13,4 +13,65 @@ body {
   background-size: cover;
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color: #464646;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
+
+.form-box {
+  background: rgba(0, 0, 0, 0.75);
+  height: 100%;
+}
+
+#header {
+  color: #ca9425;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+p,
+#name,
+#subject,
+#email,
+#message {
+  color: white;
+}
+
+#name,
+#subject,
+#email,
+#message {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  border-width: 3px !important;
+  border-radius: 23px !important;
+}
+
+#linereach {
+  height: 1px;
+  width: 24%;
+  background-color: white;
+  opacity: 1;
+}
+
+#name-input,
+#subject-input,
+#email-input,
+#message-input {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.75);
+  width: 421px;
+}
+
+label {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+#textunderh {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
 }
