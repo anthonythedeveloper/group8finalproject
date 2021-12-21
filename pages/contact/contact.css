@@ -1,5 +1,5 @@
 body {
-    height: 100%;
+  height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
     url("../../images/contactusbg.jpg");
   /* Image is centered vertically and horizontally at all times */
@@ -15,37 +15,47 @@ body {
   background-color: #464646;
 }
 
-
 .form-box {
-    background: rgba(0, 0, 0, 0.75);
-    height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  height: 100%;
 }
 
 h1 {
-    color: #CA9425;
+  color: #ca9425;
 }
 
-p  {
-    color:  white;
+p, #name, #subject, #email, #message {
+  color: white;
 }
 
-#name {
-    color: white;
-}
-
-#subject {
-    color: white;
-}
-
-#email {
-    color: white;
-}
-
-#message {
-    color: white;
+#name, #subject, #email, #message {
+    font-weight: bold;
 }
 
 .btn {
-    border-width:3px !important;
-    border-radius: 23px !important;
+  border-width: 3px !important;
+  border-radius: 23px !important;
+}
+
+#linereach {
+  height: 5px;
+  width: 24%;
+  background-color: white;
+  opacity: 1;
+}
+
+#name-input {
+    border-radius: 25px;
+}
+
+#subject-input {
+    border-radius: 25px;
+}
+
+#email-input {
+    border-radius: 25px;
+}
+
+#message-input {
+    border-radius: 25px;
 }
