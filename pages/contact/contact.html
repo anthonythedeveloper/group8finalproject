@@ -1,32 +1,109 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="contact.css">
-        <link rel="stylesheet" href="../../bootstrapData/css/">
-    </head>
 
-    <body>
-     
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../../bootstrapData/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../partials/navbar.css">
+    
+</head>
+
+<body>
+
+    <nav class="
+          navbar navbar-expand-md navbar-light
+          pt-2
+          fixed-top
+        " id="navbar">
+      <div class="container-fluid border-light d-flex justify-content-between align-items-center inner-nav">
+        <a class="navbar-brand order-1 order-md-0" href="#"><img id="ravens-logo" src="../../images/ravens-logo.png"
+            alt="ravens logo football team" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="three col">
+            <div class="hamburger" id="hamburger-9">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line" id="line-3"></span>
             </div>
           </div>
-          
-        <script src="../../bootstrapData/js/"></script>
-    </body>
+        </button>
+        <a class="nav-link order-2 order-md-1" aria-current="page" href="#"><img id="cart-logo"
+            src="../landingPage/images/shoppingCart.png" /></a>
+        <div class="collapse navbar-collapse order-3 order-md-0 ml-3" id="navbarSupportedContent" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-links-container">
+            <li class="nav-item">
+              <a class="nav-link text-white h4" href="#">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white h4" href="#">MERCHANDISE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white h4" href="#">MEDIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white h4" href="#">SCHEDULE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white h4" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+        <!-- This is the background for the contact form  -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- this is the first column I left it blank so it wont show  -->
+            </div>
+            <div class="col-md-6 form-box p-5">
+                
+                <h1 id="header">REACH OUT TO US.</h1>
+                <hr id="linereach">
+
+                <p id="">We want to make your experience with The Baltimore Ravens an excellent want. Send
+                    us your inquiry and the team will get back with you as soon as possible.
+                    
+                </p> 
+
+                <form class="contactbg">
+
+                    <div class="nameandentry">
+                        <label id="name" for="exampleInputEmail1">NAME</label>
+                        <input type="email" class="form-control mb-3 mt-2" id="name-input" aria-describedby="emailHelp rounded">
+                    </div>
+
+                    <div class="subjectentry">
+                        <label id="subject" for="exampleInputPassword1">SUBJECT</label>
+                        <input type="password" class="form-control mb-3 mt-2" id="subject-input" >
+                    </div>
+
+                    <div class="emailentry">
+                        <label id="email" for="exampleInputPassword1">EMAIL</label>
+                        <input type="password" class="form-control mb-3 mt-2" id="email-input" >
+                    </div>
+
+                    <div class="messageentry">
+                        <label id="message" for="exampleInputPassword1">MESSAGE</label>
+                        <input type="password" class="form-control mb-3 mt-2" id="message-input" >
+                    </div>
+
+                    <button type="button" class="btn btn-outline-light m-4 btn-lg">Submit</button>
+                </form>
+
+            </div>
+
+
+            <script src="../../bootstrapData/js/bootstrap.min.js"></script>
+</body>
+
 </html>
