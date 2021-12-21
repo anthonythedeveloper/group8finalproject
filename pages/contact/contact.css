@@ -15,21 +15,33 @@ body {
   background-color: #464646;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
+
 .form-box {
   background: rgba(0, 0, 0, 0.75);
   height: 100%;
 }
 
-h1 {
+#header {
   color: #ca9425;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
 }
 
-p, #name, #subject, #email, #message {
+p,
+#name,
+#subject,
+#email,
+#message {
   color: white;
 }
 
-#name, #subject, #email, #message {
-    font-weight: bold;
+#name,
+#subject,
+#email,
+#message {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
 }
 
 .btn {
@@ -38,24 +50,28 @@ p, #name, #subject, #email, #message {
 }
 
 #linereach {
-  height: 5px;
+  height: 1px;
   width: 24%;
   background-color: white;
   opacity: 1;
 }
 
-#name-input {
-    border-radius: 25px;
-}
-
-#subject-input {
-    border-radius: 25px;
-}
-
-#email-input {
-    border-radius: 25px;
-}
-
+#name-input,
+#subject-input,
+#email-input,
 #message-input {
-    border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.75);
+  width: 421px;
+}
+
+label {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+#textunderh {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
 }
