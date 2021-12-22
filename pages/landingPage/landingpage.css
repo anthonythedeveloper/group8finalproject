@@ -17,50 +17,6 @@ html {
   font-family: "Barlow", sans-serif;
 }
 
-.nav-active {
-  background-color: rgba(35, 16, 118, 1);
-}
-
-nav {
-  z-index: 1;
-}
-/* logo */
-#ravens-logo {
-  width: 6rem;
-}
-/* navbar hamburger */
-#cart-logo {
-  width: 3rem;
-  color: white;
-}
-.row .three {
-  padding: 80px 30px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #ecf0f1;
-  text-align: center;
-}
-
-.hamburger .line {
-  width: 50px;
-  height: 3.5px;
-  background-color: #ecf0f1;
-  display: block;
-  margin: 8px auto;
-  border-radius: 4px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-#line-3 {
-  width: 35px;
-  margin-left: 0px;
-}
-.hamburger:hover {
-  cursor: pointer;
-}
-
 /*------------ header styling ------------*/
 
 /* homes section and header background image*/
@@ -285,19 +241,6 @@ nav {
 @media screen and (min-width: 768px) {
   /* navbar */
 
-/* logo */
-#ravens-logo {
-  width: 6rem;
-}
-/* navbar hamburger */
-#cart-logo {
-  width: 3rem;
-  color: white;
-}
-.nav-link{
-font-size: 1rem;
-
-}
 
   /* header text */
   #top-hr {
@@ -361,21 +304,6 @@ margin-bottom: .4rem;
 /* media queries */
 @media screen and (min-width: 992px) {
   /* navbar */
-
-/* logo */
-#ravens-logo {
-  width: 6rem;
-}
-/* navbar hamburger */
-#cart-logo {
-  width: 3rem;
-  color: white;
-}
-.nav-link{
-font-size: 1rem;
-
-}
-
   /* header text */
   #top-hr {
     height: 0.2rem;
@@ -467,3 +395,5 @@ margin-bottom: .4rem;
     height: 11em;
   }
 }
+
+
