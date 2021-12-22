@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(36,26,44,1);
+}
+.myimg-1{
+    background-color: rgba(36,26,44,1);
+}
+.myrow-10{
+    height: 500px;
+}
+.mycol-10{
+    border: 0px;
+}
+.myrow-11{
+    border:0px solid white;
+    
+}
+.mycol-11{
+    color: white;
+    height: 0px;
+}
+.mynav-12{
+    color: white;
+}
+.myrow-12{
+ border: 0px solid white;
+ height: 1050px;
+}
+.mycol-12{
+    border: 0px solid white;
+    color:  0px white;
+}
+.myimg-10{
+    border-radius: 9px;
+    width: 500px;
+}
+.myul-12{
+    color: 0px white;
+}
+.myrow-13{
+    border: 0px solid white;
+    height:  350px;
+    
+}
+.mycol-13{
+    border: 0px solid white;
+    width: 40px;
+    
+}
+.img-13{
+  border-radius: 7px;
+  width: 200; 
+  
+    
+}
+.mynav-14{
+    background-color: black;
+}
+.myrow-14{
+    border: 0px white;
+    height: 200px;
+}
+.mycol-14{
+    border: 0px solid white;
+}
