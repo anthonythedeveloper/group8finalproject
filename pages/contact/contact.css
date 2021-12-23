@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
     url("../../images/contactusbg.jpg");
   /* Image is centered vertically and horizontally at all times */
-  background-position: 50% center;
+  background-position: -160% -30%;
   /* Image doesn't repeat */
   background-repeat: no-repeat;
   /* Makes the image fixed in the viewport so that it doesn't move when
@@ -26,6 +26,7 @@ body {
   color: #ca9425;
   font-family: "Barlow", sans-serif;
   font-weight: bold;
+  font-size: 200%;
 }
 
 p,
@@ -63,7 +64,7 @@ p,
   border-radius: 25px;
   border: 2px solid #ffffff;
   background: rgba(255, 255, 255, 0.75);
-  width: 421px;
+ 
 }
 
 label {
@@ -79,4 +80,8 @@ label {
 /* form margin for the form to be under the nav*/
 .header{
   margin-top: 5.9rem;
+}
+
+.form-box {
+    width: 200px;
 }
