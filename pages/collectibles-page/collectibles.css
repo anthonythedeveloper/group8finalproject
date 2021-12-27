@@ -227,7 +227,7 @@ body{
 
 }
 .ws-yellow {
-    background-color: hsl(53, 83%, 50%)!important;
+    background-color: #ca9425!important;
     color: black !important;
 }
 *, *::after {
