@@ -1,64 +1,265 @@
-body{
-    background-color: rgba(36,26,44,1);
+/*------------ navbar-styling ------------*/
+
+.nav-active {
+  background-color: #231076;
+  border-bottom: 7px solid black;
 }
-.myimg-1{
-    background-color: rgba(36,26,44,1);
+.inner-nav {
+  max-width: 1500px;
 }
-.myrow-10{
-    height: 500px;
+
+nav {
+  z-index: 1;
+  display: flex;
+
+  margin: auto;
 }
-.mycol-10{
-    border: 0px;
+.navbar-links-container {
+  margin: auto;
 }
-.myrow-11{
-    border:0px solid white;
-    
+/* logo */
+#ravens-logo {
+  width: 6rem;
 }
-.mycol-11{
-    color: white;
-    height: 0px;
+/* navbar hamburger */
+#cart-logo {
+  width: 3rem;
+  color: white;
 }
-.mynav-12{
-    color: white;
+.row .three {
+  padding: 80px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ecf0f1;
+  text-align: center;
 }
-.myrow-12{
- border: 0px solid white;
- height: 1050px;
+
+.hamburger .line {
+  width: 50px;
+  height: 3.5px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 8px auto;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.mycol-12{
-    border: 0px solid white;
-    color:  0px white;
+#line-3 {
+  width: 35px;
+  margin-left: 0px;
 }
-.myimg-10{
-    border-radius: 9px;
-    width: 500px;
+.hamburger:hover {
+  cursor: pointer;
 }
-.myul-12{
-    color: 0px white;
+
+@media screen and (min-width: 768px) {
+  /* navbar */
+  .nav-item a {
+    margin: auto;
+  }
+  .navbar {
+    background-color: #231a2c;
+  }
+  .home-content-container {
+    margin-top: 79.1px;
+  }
+  /* logo */
+  #ravens-logo {
+    width: 6rem;
+  }
+  #cart-logo {
+    width: 3rem;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+
+ 
 }
-.myrow-13{
-    border: 0px solid white;
-    height:  350px;
-    
-}
-.mycol-13{
-    border: 0px solid white;
-    width: 40px;
-    
-}
-.img-13{
-  border-radius: 7px;
-  width: 200; 
+@media screen and (min-width: 992px) {
+  /* navbar */
+
+  /* logo */
+  /* logo */
+  /* navbar */
+  #ravens-logo {
+    width: 8rem;
+  }
+  /* navbar hamburger */
+  #cart-logo {
+    width: 3.5rem;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }}
   
-    
+  @media screen and (min-width: 1400px) {
+    /* navbar */
+
+    /* logo */
+    /* logo */
+
+    /* navbar */
+    #ravens-logo {
+      width: 8.5rem;
+    }
+    /* navbar hamburger */
+    #cart-logo {
+      width: 4rem;
+    }
+    .nav-link {
+      font-size: 1.9rem;
+    }
+  }
+
+  :root {
+  --radius: 5px;
+  --padding: 10px;
 }
-.mynav-14{
-    background-color: black;
+body{
+  background-color: rgba(36,  26, 44, 1);
 }
-.myrow-14{
-    border: 0px white;
-    height: 200px;
+.container {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+  
+  font-size: 12px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: 2fr 1.2fr 1.2fr 1.2fr;
+  grid-gap: 0.5rem;
+  height: 100vh;
+  grid-template-areas:
+    "content1 content1 content2 content2"
+    "content3 content4 content5 content6"
+    "content3 content7 content8 content9"
+    "content3 content10 content11 content12";
 }
-.mycol-14{
-    border: 0px solid white;
+#content1 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content1;
+}
+#content2 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content2;
+  text-align: left;
+}
+#content3 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content3;
+  text-align: left;
+}
+#content4 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content4;
+}
+#content5 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content5;
+}
+#content6 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content6;
+}
+#content7 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content7;
+}
+#content8 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content8;
+}
+#content9 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content9;
+}
+#content10 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content10;
+}
+#content11 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content11;
+}
+#content12 {
+  background: rgba(36,  26, 44, 1);
+  border-radius: var(--radius);
+  padding-top: var(--radius);
+  grid-area: content12;
+}
+.ribbon-vid{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 20px;
+    left: -20px;
+    top: -10px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+
+
+}
+.ws-yellow {
+    background-color: hsl(53, 83%, 50%)!important;
+    color: black !important;
+}
+*, *::after {
+    box-sizing: inherit;
+
+}
+ .ribbon-vid-my{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 20px;
+    left: -20px;
+    top: -10px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+
+
+}
+.ws-yellow-my {
+    background-color: #979691!important;
+    color: black !important;
+}
+*, *::after {
+    box-sizing: inherit;
+} 
+
+
+@media only screen and (max-width: 550px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr repeat(2fr);
+    grid-template-areas:  "content1" "content2" "content3" "content4" "content5" "content6"
+      "content7" "content8" "content9" "content10" "content11" "content12";
+  }
 }
