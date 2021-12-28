@@ -45,12 +45,13 @@ p,
   font-weight: bold;
 }
 
-.btn {
+.btn-outline-light {
   border-width: 3px !important;
   border-radius: 23px !important;
   width: 132px;
   height: 37px;
   font-family: "Barlow", sans-serif;
+ 
 }
 
 #linereach {
