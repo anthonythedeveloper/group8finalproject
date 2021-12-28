@@ -1,7 +1,7 @@
 const navbar = document.querySelector("#navbar");   
 const navbarCollapse = document.querySelector(".navbar-collapse");
 window.onscroll = () => {
-    if (window.scrollY > 300 && window.innerWidth < 768 ){
+    if (window.scrollY > 25 && window.innerWidth < 768 ){
        navbar.classList.add("nav-active");
     }
     else {
