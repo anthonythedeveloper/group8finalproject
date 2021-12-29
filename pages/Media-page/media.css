@@ -6,10 +6,14 @@ body {
 
 
 .img-responsive {
-  width: 491px;
   height: 385px;
   border-radius: 23px;
   
+}
+
+.container {
+    margin: 10px;
+    
 }
 
 h1 {
@@ -19,7 +23,7 @@ h1 {
 }
 
 #firstvideo {
-    width: 100%;
+    width: 100vw;
     height: 620px;
 }
 
