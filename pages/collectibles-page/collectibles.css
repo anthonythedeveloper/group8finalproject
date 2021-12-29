@@ -247,8 +247,9 @@ body{
 
 }
 .ws-yellow-my {
-    background-color: #979691!important;
-    color: black !important;
+    background-color: rgb(12, 0, 12)!important;
+    color: white !important;
+    border: 1px solid
 }
 *, *::after {
     box-sizing: inherit;
