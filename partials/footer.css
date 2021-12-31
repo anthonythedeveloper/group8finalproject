@@ -28,8 +28,8 @@
   
   .footer_logo_nfl {
     
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: block;
   }
   
@@ -39,7 +39,7 @@
   }
   
   .footer_item {
-    font-size: 19px;
+    font-size: 10px;
     font-family: "Barlow", sans-serif;
   }
   
@@ -61,7 +61,7 @@
   }
   
   .footer_copy {
-    margin-top: 30px;
+    margin-top: 3px;
   }
   
   @media (max-width: 768px) {

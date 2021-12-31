@@ -76,8 +76,6 @@ nav {
     font-size: 1.3rem;
     font-weight: 100;
   }
-
- 
 }
 @media screen and (min-width: 992px) {
   /* navbar */
@@ -94,175 +92,64 @@ nav {
   }
   .nav-link {
     font-size: 1.5rem;
-  }}
-  
-  @media screen and (min-width: 1400px) {
-    /* navbar */
-
-    /* logo */
-    /* logo */
-
-    /* navbar */
-    #ravens-logo {
-      width: 8.5rem;
-    }
-    /* navbar hamburger */
-    #cart-logo {
-      width: 4rem;
-    }
-    .nav-link {
-      font-size: 1.9rem;
-    }
   }
-
-  :root {
-  --radius: 7px;
-  --padding: 10px;
 }
+
+@media screen and (min-width: 1400px) {
+  /* navbar */
+
+  /* logo */
+  /* logo */
+
+  /* navbar */
+  #ravens-logo {
+    width: 8.5rem;
+  }
+  /* navbar hamburger */
+  #cart-logo {
+    width: 4rem;
+  }
+  .nav-link {
+    font-size: 1.9rem;
+  }
+}
+
+
+
 body{
-  background-color: rgba(36,  26, 44, 1);
+    background-color: rgba(36,  26, 44, 1);
 }
-.container {
-  font-family: sans-serif;
-  font-weight: 500;
-  color: white;
-  
-  font-size: 12px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1.2fr 1.2fr 2fr;
-  grid-gap: 0.5rem;
-  height: 100vh;
-  grid-template-areas:
-    "content1 content1 content2 content2"
-    "content3 content4 content5 content6"
-    "content3 content7 content8 content9"
-    "content3 content10 content11 content12";
+.helmet img{
+    width: 100%;
+    border-radius: 5px;
 }
-#content1 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content1;
+.helmet{
+    height: 25rem;
 }
-#content2 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content2;
-  text-align: left;
+.text{
+    color: white;
 }
-#content3 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content3;
-  text-align: left;
-}
-#content4 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content4;
-}
-#content5 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content5;
-}
-#content6 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content6;
-}
-#content7 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content7;
-}
-#content8 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content8;
-}
-#content9 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content9;
-}
-#content10 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content10;
-}
-#content11 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content11;
-}
-#content12 {
-  background: rgba(36,  26, 44, 1);
-  border-radius: var(--radius);
-  padding-top: var(--radius);
-  grid-area: content12;
-}
-.ribbon-vid{
-    font-size: 12px;
-    font-weight: bold;
-    padding: 2px 18px;
-    left: -20px;
-    top: -10px;
-    text-align: center;
-    color: black;
-    border-radius: 25px;
 
+.filter{
+    height: 52rem;
+    color: white;
+}
+.column-1{
+    height: 18rem;
+}
+.column-1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.button-11{
+background-color: #ca9425;
+padding: 1px 9px;
+margin-top: 25px;
 
 }
-.ws-yellow {
-    background-color: #ca9425!important;
-    color: black !important;
-}
-*, *::after {
-    box-sizing: inherit;
-
-}
- .ribbon-vid-my{
-    font-size: 12px;
-    font-weight: bold;
-    padding: 1px 18px;
-    left: -20px;
-    top: -10px;
-    text-align: center;
-    color: black;
-    border-radius: 25px;
-  
-
-
-}
-.ws-yellow-my {
-    background-color: rgba(36,  26, 44, 1)!important;
-    color: white !important;
-    border: 1px solid;
-    
-}
-*, *::after {
-    box-sizing: inherit;
-} 
-
-
-@media only screen and (max-width: 550px) {
-  .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 2.5fr 2.5fr 1fr repeat(1.5fr);
-    grid-template-areas:  "content1" "content2" "content3" "content4" "content5" "content6"
-      "content7" "content8" "content9" "content10" "content11" "content12";
-  }
+.button-12{
+ background-color: rgba(36, 26, 44, 1) !important;
+  color: white !important;
+  border: 0.5px solid;
+  padding: 1px ;
 }
