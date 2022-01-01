@@ -1,29 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
 
-body { 
-    background: #241A2C !important; 
+body {
+  background: #241a2c !important;
 }
 
-
 .img-responsive {
-  height: 385px;
-  border-radius: 23px;
-  
+    height: 395px;
+    border-radius: 23px;
+
 }
 
 .container {
-    margin: 10px;
-    
+  margin: 10px;
+  
+}
+
+#pointpic {
+    width: 500px;
+    height: 385px;
+    object-fit: cover;
+}
+
+#eightplayer {
+    width: 298px;
+    height: 385px;
+    object-fit: cover;
+}
+
+#throwpic {
+    width: 508px;
+    height: 385px;
+    object-fit: cover;
 }
 
 h1 {
-    font-family: "barlow", sans-serif;
-    font-weight: bold;
-    color: white;
+  font-family: "barlow", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 60px;
 }
+
+#linereach {
+    height: 1px;
+    width: 18%;
+    margin: 20px;
+    background-color: white;
+    opacity: 1;
+  }
 
 #firstvideo {
-    width: 100vw;
-    height: 620px;
+  width: 100vw;
+  height: 620px;
 }
 
+#leftside,
+#rightside {
+  width: 50vw;
+  height: 620px;
+}
