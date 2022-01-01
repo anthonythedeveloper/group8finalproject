@@ -118,24 +118,31 @@ nav {
 
 body{
     background-color: rgba(36,  26, 44, 1);
+    
 }
 .helmet img{
     width: 100%;
     border-radius: 5px;
 }
 .helmet{
-    height: 25rem;
+    height: 30rem;
 }
 .text{
     color: white;
+     height: 30rem;
+     font-family: "Barlow", sans-serif;
+    
 }
 
 .filter{
-    height: 52rem;
+    height: 75rem;
     color: white;
 }
+.row{
+  width: 100%;
+}
 .column-1{
-    height: 18rem;
+    height: 25rem;
 }
 .column-1 img{
     width: 100%;
@@ -143,20 +150,79 @@ body{
 }
 .button-11{
 background-color: #ca9425;
-padding: 1px 9px;
+padding: .375rem  1rem;
 margin-top: 25px;
+border: 1px solid white;
+font-size: 8px;
+grid-area: 5px;
 
 }
 .button-12{
  background-color: rgba(36, 26, 44, 1) !important;
   color: white !important;
   border: 0.5px solid;
-  padding: 1px ;
+  padding: .375rem  1rem;
+  font-size: 8px;
+  grid-area: 2px;
 }
+
 @media (max-width: 768px) {
     .filter {
       
-      height: 12rem;
+      height: 16rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;  
     }
+    .helmet img{
+    height: 25rem;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;  
+    }
+    .text{
+      height: 22rem;
+      
+      margin-left:  40px;
+      margin-right: auto;
+      
+      width: 90%;  
+    }
+    .column-1 img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%; 
+      
+      
+    }
+    .button-11{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: center;
+      width: 30%;  
+    }
+  .button-12{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: center;
+      width: 30%;  
+    }
+  }
+      
+      
+    
 
-}
+    
+  
+    
+   
+   
+
+   
+   
+
