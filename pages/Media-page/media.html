@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Page</title>
     <link rel="stylesheet" href="../../bootstrapData/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="../Media-page/media.css">
     <link rel="stylesheet" href="../../partials/navbar.css">
     <link rel="stylesheet" href="../../partials/footer.css">
 </head>
@@ -61,18 +61,18 @@
 <hr id="linereach">
 
     <!-- This is the columns for the first row with the images -->
+<div class="whole-page-container">
+<div class="container " >
 
-<div class="container">
+    <div class="row" id="top-row">
 
-    <div class="row">
-
-      <div class="col-5">
+      <div class="col-12 col-md-6 col-lg-5">
         <img class="img-responsive" id="pointpic" src="../../images/playerspointleft.jpg" alt="">
       </div>
-      <div class="col-2">
+      <div class="col-12 col-md-6 col-lg-3">
         <img class="img-responsive" id="eightplayer" src="../../images/playereight (1).jpg" alt="">
       </div>
-      <div class="col-5">
+      <div class="col-12 col-md-12 col-lg-4">
         <img class="img-responsive" id="throwpic" src="../../images/playereightthrowball.jpg" alt="">
       </div>
 
@@ -83,17 +83,17 @@
 
 <!-- This is the columns for the second row with the images -->
 
-<div class="container">
+<div class="container" id="bottom-row-container">
 
-  <div class="row">
+  <div class="row " id="bottom-row">
 
-    <div class="col-4">
+    <div class="col-12 col-md-6 col-lg-4">
       <img class="img-responsive" src="../../images/playersstanding.jpg" alt="">
     </div>
-    <div class="col-4">
+    <div class="col-12 col-md-6 col-lg-4">
       <img class="img-responsive" src="../../images/fansandstadium.jpg" alt="">
     </div>
-    <div class="col-4">
+    <div class="col-12 col-md-12 col-lg-4">
       <img class="img-responsive" src="../../images/playereightrunning.jpg" alt="">
     </div>
 
@@ -105,7 +105,7 @@
 <div id="topvideos">
     <!-- This is the first full video  -->
   <div class="embed-responsive embed-responsive-21by9">
-      <iframe  id="firstvideo" src="../../images/Ravenwired.mp4"
+      <iframe  class="firstvideo" src="../../images/Ravenwired.mp4"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
@@ -113,7 +113,7 @@
   
   <!-- This is the second full video -->
   <div class="embed-responsive embed-responsive-21by9">
-      <iframe  id="firstvideo" src="../../images/buyingvid.mp4"
+      <iframe  class="firstvideo" src="../../images/buyingvid.mp4"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
@@ -124,14 +124,14 @@
 <!-- The two videos side by side at the bottom -->
 
 <div class="row">
-    <div class="col-6">
+    <div class="col-12 p-0">
         <iframe  id="leftside" src="https://www.youtube.com/embed/HyETMuf8Mew"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
 
-    <div class="col-6">
+    <div class="col-12 p-0">
         <iframe  id="rightside" src="https://www.youtube.com/embed/HyETMuf8Mew"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -139,7 +139,7 @@
     </div>
     
   </div>
-
+</div>
   <!-- The Footer Menu  -->
 
     <!---------------------------------------FOOTER CONTAINER------------------------------------>
