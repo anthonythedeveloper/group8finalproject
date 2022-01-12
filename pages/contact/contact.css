@@ -1,7 +1,7 @@
 body {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-    url("../../images/contactusbg.jpg");
+    url("../../images/touchdw.jpg");
   /* Image is centered vertically and horizontally at all times */
   background-position: -160% -30%;
   /* Image doesn't repeat */
@@ -17,7 +17,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
 
-
+/* form black background */
 .form-box {
   background: rgba(0, 0, 0, 0.75);
   height: 100%;
@@ -44,6 +44,18 @@ p,
 #message {
   font-family: "Barlow", sans-serif;
   font-weight: bold;
+}
+
+.message  {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#exampleFormControlTextarea1 {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .btn-outline-light {
