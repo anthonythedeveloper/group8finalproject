@@ -3,6 +3,8 @@
    padding: 0;
    box-sizing: border-box;
  }
+
+ /*=============== For Jersey extended background ==============*/
 body {
   background-color: #e7e7e7;
 }
@@ -16,8 +18,7 @@ body {
     height: 100%;
     background-image: linear-gradient(180deg, #241A2C 45%, rgba(36, 26, 44, 0) 100%),
      url("../../images/stadium.jpg");
-     
-     
+    
  
    /* Image is centered vertically and horizontally at all times */
    background-position: 50% center;
@@ -68,14 +69,14 @@ h1 {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 36.46%, #000000 100%);
   border: none;
   border-radius: 30px;
+  padding-top: 2rem;
 
 }
-
-
 
  /*=============== Grey t-Shirt cards ==============*/
 .card-container {
   position: relative;
+
 }
 
 #sale-card-top {
@@ -84,22 +85,27 @@ color: white;
 position: absolute;
 top: 0;
 right: 2rem;
--webkit-border-top-right-radius: 17px;
--moz-border-radius-topright: 17px;
-border-top-right-radius: 17px;
-padding: .3rem .7rem;
+-webkit-border-top-right-radius: 25px;
+-moz-border-radius-topright: 25x;
+border-top-right-radius: 25px;
+padding: 1rem 1.6rem .6rem;
 text-transform: uppercase;
-font-weight: 400;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 700;
 }
 
 .item-price {
-  margin-top: -1rem;
+font-size: 1.75rem;
+font-weight: 100;
 }
 
 .item-price span {
 color: red;
 text-decoration: line-through;
-margin-left: .5rem;
+font-size: 1.75rem;
+font-weight: 100;
+margin-left: 1.25rem;
 }
 
 .box {
@@ -107,21 +113,35 @@ margin-left: .5rem;
   height: 100%;
   display: flex;
   flex-direction: column;
+  
+}
+
+#Gtee {
+  padding-top: 1rem;
 }
 
 .card-img-top {
-  padding-top: 1rem;
-  height: 24rem;
+  /* padding-top: 1rem; */
+  
 
 }
 
 .beanie1 {
-  height: 45%;
+  height: 65%;
+  width: 45%;
   display: block;
- 
+  /* padding-top: 2rem; */
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.beanie2 {
+  width: 45%;
+  display: block;
+  /* padding-top: 2rem; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #img1 img {
@@ -135,13 +155,26 @@ margin-left: .5rem;
   height: fit-content;
 }
 
+#row2 {
+  padding-bottom: 10rem;
+
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1.5rem;
+  
+}
+
  .card-body {
   color: white;
   font-family: "Lato", sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 19px;
-
+  padding-left: 2rem;
+  font-size: 1.75rem;
+  font-weight: 100;
   
  }
 
@@ -162,34 +195,103 @@ margin-left: .5rem;
     border: 1px solid #CA9425;
     box-sizing: border-box;
     border-radius: 23px;
-
+    margin-left: 3.5rem;
  }
 
  /*=============== section large images ==============*/
  
-
  #jersey1, #jersey2 {
    width: 100%;
    height: 100%;
+   
  }
 
-  /*=============== section break ==============*/
+  /*=============== media queries section break ==============*/
 
  @media screen and (min-width: 768px) {
   
   .merch-header{
     padding: 8rem 0 2rem 2rem;
    
-  
+
    }
+
+   #underline {
+     background-color: white;
+     width: 7rem;
+     height: .25rem;
+     opacity: 1;
+   
+   }
+
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    
 }
 
-@media screen and (min-width: 992px) {
+   .beanie1 {
+    height: 55%;
+    width: 45%;
+    display: block;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .beanie2 {
+    width: 50%;
+    display: block;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+
+
+
+  }
+  
+   
+
+ /*=============== End of 768px ==============*/
+
+
+
+@media screen and (min-width: 999px) {
   
   .merch-header{
     padding: 9rem 0 2rem 2rem;
    
 
    }
+
+   .beanie1 {
+    height: 35%;
+    width: 55%;
+    display: block;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+
+  /* cardbody text */
+  h5 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1.30rem;
+    
+  }
+
+
+
+
 }
  
