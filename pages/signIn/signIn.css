@@ -35,7 +35,6 @@ body{
 .sing-in-form{
     color: white;
   background: rgb(35, 16, 118, .65);
-
 /* position */
 position: absolute;
 top: 0;
@@ -109,15 +108,10 @@ font-size: 1.1rem
 }
 
 @media screen and (min-width: 768px) {
-
-    
 .second-col{
- 
     height: 100vh;
     display: block;
 }
-
-
 /* Sing in form container style */
 .sing-in-form{
  
@@ -129,8 +123,7 @@ width: 75vw;
 }
 .sing-in-inner {
   width: 50%;
-       margin-left: 45%;
-   
+ margin-left: 45%; 
 color: white;
 }
 
