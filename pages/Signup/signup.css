@@ -1,0 +1,82 @@
+body {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("../../images/Fancatchingtheball.png");
+  /* Image is centered vertically and horizontally at all times */
+  background-position: -10% 50%;
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: 100%;
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
+
+form {
+  background: rgba(202, 148, 37, 0.65);
+}
+
+.form-group {
+  border-width: 3px !important;
+  border-radius: 23px !important;
+  width: 70%;
+  margin-left: 5%;
+}
+
+.titlehead {
+  color: white;
+  margin-left: 7%;
+  margin-bottom: 25px;
+  padding-top: 45px;
+}
+
+#exampleInputname1,
+#exampleInputEmail1,
+#pass,
+#confirmpass {
+  border-width: 3px !important;
+  border-radius: 23px !important;
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+}
+
+label {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 15px;
+}
+
+button {
+  border-radius: 23px;
+}
+
+.play {
+  transform: rotate(-90deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  color: white;
+
+  padding:20px;
+  float: right;
+}
