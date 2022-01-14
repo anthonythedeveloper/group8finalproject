@@ -7,6 +7,31 @@ overflow-x: hidden;
 
 }
 
+    /*----------------------Video-------------------*/
+.video_body {
+         background-color: #241A2C;
+     
+         width: 100%;
+     }
+video,iframe{
+  width: 100%;
+}
+iframe {
+  height: 60vh;
+}
+video{
+  height: 75vh;
+}
+     .video-background {
+         
+     }
+
+     .header_video {
+        -moz-box-shadow: 0 0 30px 5px #999;
+        -webkit-box-shadow: 0 0 30px 5px #999;
+        border-radius: 2px;
+     }
+
 .img-responsive {
   width: 100%;
     height: 45vh;
@@ -14,7 +39,11 @@ overflow-x: hidden;
     border-radius: 23px;
 
 }
+.co-video-2 iframe,
+.cl-video-2 iframe{
+height: 20rem;
 
+}
 .container {
   margin: 10px;
   

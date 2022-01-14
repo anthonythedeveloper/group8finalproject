@@ -194,6 +194,7 @@ h5 {
   padding-left: 2rem;
   font-size: 1.75rem;
   font-weight: 100;
+  padding-bottom: 3rem;
   
  }
 
@@ -216,7 +217,7 @@ h5 {
     border: 1px solid #ca9425;
     background-color: #231076;
     padding: .5rem 1.5rem;
-    margin-right: 6rem;
+  
     font-weight: 100;
     font-size: 1.4rem;
    
@@ -276,32 +277,42 @@ h5 {
 
 }
 
-.add-to-cart{  
-  font-size: .9rem;
-  height: 38px;
-  width: 2px;
-  padding: .5rem 2rem;
+ .card-body {
+
+
+  padding-bottom: 5rem;
   
-}
+ }
 
-.buy-now-btn {
-  font-size: .9rem;
-  height: 38px;
-  padding: .5rem 2rem;
- 
-}
 
+      /* button style */
+
+
+      /* button style */
+ .add-to-cart{
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+ }
+
+ .buy-now-btn {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+ }
+ .card:nth-child(3){
+   color: red;
+ }
 #beanie1 {
   height: 30%;
   width: 65%;
   display: block;
   margin-top: 3.5rem;
-  margin-bottom: 7.3rem;
+  margin-bottom: 9.3rem;
+
   /* margin-left: auto;
   margin-right: auto; */
 
 }
-
+#beanie1:nth-child(3)
 #beanie2 {
   height: 55%;
   width: 70%;
@@ -340,22 +351,22 @@ p {
    
 
    }
+    .card-body {
 
-        /* button style */
- .add-to-cart{  
-  
-  
-  height: 36px;
-padding: 0rem 2rem !important;
-font-size: 1.1rem !important
-  
-}
 
-.buy-now-btn {
-  font-size: .4rem;
-  padding: 0 .7rem;
- 
-}
+  padding-bottom: 0;
+  
+ }
+      /* button style */
+ .add-to-cart{
+    padding: .5rem 1.5rem;
+    font-size: .8rem;
+ }
+
+ .buy-now-btn {
+    padding: .5rem 1.5rem;
+    font-size: .8rem;
+ }
 
    #beanie1 {
     height: 30%;
