@@ -133,9 +133,10 @@ body{
 }
 .top-right-text{
   color: white;
+  font-family: 'Barlow', sans-serif;
 }
 .filter-by{
-
+font-family: 'Barlow', sans-serif;
 }
 .card{
 border-radius: 1.5rem;
@@ -156,6 +157,7 @@ position: relative;
     position: absolute;
     top: 7.3rem;
     left: 1rem;
+    font-family: 'Barlow', sans-serif;
 }
 .card-body{
 
@@ -173,14 +175,14 @@ position: relative;
 }
 .description-text{
   font-size: 10px;;
-  
+  font-family: 'Barlow', sans-serif;
 }
 
 
 .bg-secondary-top1{
   background-color: rgba(36,  26, 44, 1);
   border: 1px solid white;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
 }
 
 .bg-secondary-top2{
@@ -188,6 +190,7 @@ background-color:#ca9425;
     font-weight: 300;
   margin-right: 1rem;
     margin-left: 1rem; 
+    font-family: 'Lato', sans-serif;
 }
 
 .bg-secondary-2{ 
@@ -195,6 +198,8 @@ background-color:#ca9425;
     font-weight: 300;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    font-family: 'Barlow', sans-serif;
+
     
     
 }
@@ -203,7 +208,8 @@ background-color:#ca9425;
     border: 1px solid white;
     font-weight: 300;
     margin-right: 1rem;
-    margin-left: 1rem;    
+    margin-left: 1rem; 
+     font-family: 'Barlow', sans-serif;  
 }
 
 
