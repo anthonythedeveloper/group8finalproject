@@ -31,13 +31,11 @@ overflow-x: hidden;
     height: 385px;
     object-fit: cover;
 }
-
 #eightplayer {
     width: 298px;
     height: 385px;
     object-fit: cover;
 }
-
 #throwpic {
     width: 508px;
     height: 385px;
@@ -59,12 +57,7 @@ margin: 0;
 height: 17rem;
 
 }
-.cl-video{
 
-}
-.cl-video-2{
-
-}
 /* up to here    */
 h1 {
   font-family: "barlow", sans-serif;
