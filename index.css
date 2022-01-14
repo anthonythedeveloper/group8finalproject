@@ -26,7 +26,7 @@
   #home-section {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-      url("./images/headerBackground.png");
+      url("./pages/landingPage/images/headerBackground.png");
   
     /* Image is centered vertically and horizontally at all times */
     background-position: 50% center;
