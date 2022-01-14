@@ -23,6 +23,7 @@ overflow-x: hidden;
 .row {
     margin: 10px;
   }
+  
 
 /* 
 #pointpic {
@@ -30,19 +31,39 @@ overflow-x: hidden;
     height: 385px;
     object-fit: cover;
 }
-
 #eightplayer {
     width: 298px;
     height: 385px;
     object-fit: cover;
 }
-
 #throwpic {
     width: 508px;
     height: 385px;
     object-fit: cover;
 } */
+/* video css re-due by ESKNDIR   */
+.rw-video-1{
+height: 22rem;
+margin-bottom: 0rem;
+margin: 0;
+}
+.rw-video-2{
+height: 22.5rem;
+margin-bottom: 0rem;
+margin: 0;
 
+}
+.rw-video-3{
+height: 17rem;
+
+}
+.cl-video{
+
+}
+.cl-video-2{
+
+}
+/* up to here    */
 h1 {
   font-family: "barlow", sans-serif;
   font-weight: bold;
@@ -60,6 +81,14 @@ h1 {
     opacity: 1;
   }
 
+  .video-row{
+    padding: 0;
+  }
+  .video-col{
+    width:50%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 .firstvideo {
   width: 100%;
   height: 17rem;
