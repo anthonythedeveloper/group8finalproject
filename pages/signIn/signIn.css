@@ -8,6 +8,10 @@ body{
     position: relative;
     height: 100vh;
 }
+#forgotBTN{
+    color: white;
+    text-decoration: none;
+}
 /* row image */
 .bg-img{
      height: 100vh;
